@@ -1,0 +1,19 @@
+.cart-wrapper{
+    background: #fff;
+    padding: 10px 20px;
+}
+.cart-wrapper a{
+    text-decoration: none;
+    color: #000;
+}
+button.btn {
+    background: none;
+}
+.button-wrapper {
+    text-align: center;
+    background: #f2c74d;
+}
+.heading-wrapper{
+    background: #f2c74d;
+    padding: 10px 20px;
+}

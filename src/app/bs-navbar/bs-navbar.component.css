@@ -1,0 +1,21 @@
+
+.dropdown-toggle{
+    cursor: pointer;
+}
+.navbar-wrapper {
+    display: block;
+    height: 65px;
+    background: #f2c74d;
+    margin-bottom: 30px;
+}
+a.navbar-brand {
+    text-decoration: none;
+    color: #000;
+    font-style: italic;
+    font-weight: 800;
+}
+a.nav-link {
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}

@@ -1,0 +1,54 @@
+           
+<div class="container">
+    <div class="row">
+      <div class="col-md-3">
+
+      <div class="category-wrapper">
+        <h6>All</h6>
+        <ul class="products-category-1">
+          <li *ngFor="let app of appsName">
+            <a routerLink="/">{{ app.category  }}</a>
+          </li>
+        </ul>
+      </div>
+
+      </div>
+
+      <div class="col-md-9">
+        <div class="product-list">
+          <ul class="products-category">
+              <li class="list" *ngFor="let app of appsName; let i = index">
+                <div class="row">
+                  <div class="col-md-1">
+                    <span class="veg-flag" >{{ app.vegflag }}</span>
+                  </div>
+                  <div class="col-md-6">
+                      <a href="">{{ app.name }} </a>
+                  </div>
+                  
+                  <div class="col-md-1">
+                    <button class="btn" (click)="mins(i)" [disabled]="">-</button>
+                  </div>
+                  <div class="col-md-1">
+                    <span class="add-cart">{{ msg }}</span>
+                  </div>
+                  <div class="col-md-1">
+                    <button  class="btn" (click)="clickMe(i) ">
+                    +</button>
+                  </div>
+                  
+                  <div class="col-md-2">
+                    <span>{{ app.price }}</span>
+                  </div>
+    
+                </div>
+    
+              </li>
+            </ul>
+        </div>
+        
+      </div>
+
+    </div>
+
+</div>
